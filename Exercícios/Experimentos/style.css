@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+@font-face {
+    font-family: "naipe";
+    src: url(fonts/Neon\ Energy\ x.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #100d31;
+}
+
+.header {
+    font-family: "naipe";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.Toranpu {
+    font-size: 3em;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    margin-left: 1000px;
+}
+
+.navbar a {
+    margin-left: 50px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: rgba(255, 0, 140, 0.616);
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-div {
+    font-size: 2em;
+    background-color: aqua;
+    max-width: 800px;
+}
+.home-div h1{
+    font-size: 59px;
+    font-weight: bold;
+}
+.home-div h3{
+    font-weight: normal;
+}
+.btn-box{
+    background-color: aqua;
+}

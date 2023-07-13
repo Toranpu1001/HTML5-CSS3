@@ -1,0 +1,69 @@
+body {
+    font: normal 20px arial;
+    background-color: rgba(2, 2, 12, 0.952);
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.video1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static
+}
+
+iframe {
+    filter: drop-shadow(0 0 200px rgb(86, 1, 1));
+}
+
+a {
+    color: white;
+    text-align: center;
+}
+
+.voltar {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: baseline
+}
+
+.voltar {
+    filter: invert();
+}
+
+.voltar {
+    transition: 0.3s;
+}
+
+.voltar:hover {
+    opacity: 0.5;
+}
+
+
+.thumb {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.thumb img {
+    transition: transform 0.3s;
+}
+
+.thumb img:hover {
+    transform: scale(1.1);
+}
+
+.thumb {
+    position: static
+}
+
+.thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
